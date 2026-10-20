@@ -1,0 +1,6 @@
+{
+  "name": "Bright Future Public School",
+  "description": "Premier educational institution from Nursery to Class VIII. Learning Today, Leading Tomorrow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

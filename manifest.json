@@ -1,0 +1,23 @@
+{
+  "name": "Bright Future Public School",
+  "short_name": "BFPS",
+  "description": "Premier educational institution from Nursery to Class VIII in New Delhi. Learning Today, Leading Tomorrow.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8FAFC",
+  "theme_color": "#2563EB",
+  "categories": ["education", "school", "kids"],
+  "icons": [
+    {
+      "src": "/images/principal.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/images/hero.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

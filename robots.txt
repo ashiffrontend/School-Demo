@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brightfuture.edu.in/sitemap.xml
