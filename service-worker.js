@@ -1,14 +1,14 @@
 const CACHE_NAME = 'bfps-v1';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/manifest.json',
-  '/images/hero.jpg',
-  '/images/principal.jpg',
-  '/images/science-lab.jpg',
-  '/images/library.jpg'
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './manifest.json',
+  './images/hero.jpg',
+  './images/principal.jpg',
+  './images/science-lab.jpg',
+  './images/library.jpg'
 ];
 
 self.addEventListener('install', (event) => {
@@ -51,7 +51,7 @@ self.addEventListener('fetch', (event) => {
         return networkResponse;
       }).catch(() => {
         if (event.request.headers.get('accept')?.includes('text/html')) {
-          return caches.match('/index.html');
+          return caches.match('./index.html') || caches.match('/');
         }
       });
     })
