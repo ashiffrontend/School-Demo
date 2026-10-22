@@ -1,0 +1,11 @@
+{
+  "name": "bright-future-public-school",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bright Future Public School - Pure Static Website",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Static website ready for Vercel deployment'"
+  }
+}
